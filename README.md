@@ -1,50 +1,49 @@
-Lista de Compras – App Android em Kotlin
-Este projeto foi desenvolvido como uma forma de praticar conceitos importantes do desenvolvimento Android. A proposta é um aplicativo simples e funcional para gerenciar listas de compras, algo bastante útil no dia a dia.
+🛒 Lista de Compras – App Android em Kotlin
+Este projeto foi feito como uma forma de praticar e aplicar alguns conceitos importantes do desenvolvimento Android. A ideia foi criar um aplicativo simples, mas funcional, para gerenciar listas de compras — algo que todo mundo acaba precisando em algum momento.
 
-O app foi criado em Kotlin, seguindo a arquitetura MVVM (Model-View-ViewModel), e utiliza componentes modernos do Android Jetpack, como ViewModel e LiveData. Para armazenar os dados de forma local, foi utilizado SQLite. A interface é construída com RecyclerView, garantindo uma experiência visual fluida e organizada.
+O app foi todo desenvolvido em Kotlin e segue o padrão MVVM, usando recursos modernos do Android Jetpack como o ViewModel e LiveData. Para salvar os dados localmente, optei por usar SQLite, o que garante que as informações não se percam quando o app for fechado. A interface é feita com RecyclerView, garantindo uma navegação fluida e organizada.
 
-Funcionalidades
-Adicionar, editar e excluir itens da lista de compras
+📋 O que o app faz
+Permite adicionar, editar e excluir itens da lista de compras
 
-Armazenamento local com persistência de dados mesmo após fechar o app
+Os dados são salvos localmente, mesmo se o app for fechado
 
-Interface responsiva com uso de RecyclerView
+A interface é limpa e intuitiva, usando RecyclerView
 
-Organização baseada em MVVM, facilitando manutenção e escalabilidade
+A arquitetura MVVM organiza o código e facilita a manutenção
 
-Atualizações em tempo real usando LiveData
+As alterações aparecem em tempo real, graças ao uso de LiveData
 
-Tecnologias Utilizadas
-Kotlin – linguagem principal utilizada no projeto
+🧰 Tecnologias e ferramentas usadas
+Kotlin – linguagem principal
 
-Android Jetpack – uso de ViewModel, LiveData e outros recursos modernos
+Android Jetpack – com foco em ViewModel e LiveData
 
-SQLite – banco de dados local para persistência dos dados
+SQLite – para armazenar os dados de forma local
 
-RecyclerView – para exibir listas de forma eficiente
+RecyclerView – para mostrar os itens da lista
 
-Gradle – ferramenta de build e gerenciamento de dependências
+Gradle – para gerenciamento de dependências e build
 
-Conceitos Aplicados
-Durante o desenvolvimento, foram aplicados os seguintes conceitos:
+📚 Conceitos por trás do app
+Durante o desenvolvimento, busquei aplicar conceitos importantes como:
 
 Programação orientada a objetos (POO) com Kotlin
 
-Separação de responsabilidades através da arquitetura MVVM
+MVVM, separando bem as responsabilidades entre tela e lógica
 
-Gerenciamento de ciclo de vida com ViewModel e LiveData
+Uso correto do ciclo de vida dos componentes
 
-Implementação de CRUD com SQLite
+Operações de banco de dados usando SQLite com uma abordagem mais limpa
 
-Atualização automática da interface com LiveData
+Interface que se atualiza automaticamente com LiveData
 
-Organização modular da interface com RecyclerView e Adapters
+Organização do projeto com Gradle
 
-Gerenciamento do projeto com Gradle
+Componentização usando RecyclerView com Adapters personalizados
 
-Testes
-O projeto conta com testes unitários simples que garantem o funcionamento das principais funcionalidades relacionadas à manipulação dos dados. Os testes podem ser executados no Android Studio em um emulador ou dispositivo físico.
+🧪 Testes
+Incluí alguns testes unitários para garantir que as funcionalidades principais, como salvar ou editar um item, funcionam como esperado. Eles podem ser rodados direto pelo Android Studio, tanto no emulador quanto em um dispositivo real.
 
-Considerações Finais
-Este projeto serve como uma base sólida para outros aplicativos que demandam armazenamento local e gerenciamento de listas. O uso de boas práticas e tecnologias modernas ajuda a tornar o projeto mais organizado e fácil de evoluir. É uma boa referência tanto para estudos quanto para futuras melhorias ou adaptações.
-
+📌 Considerações finais
+Esse app pode servir como ponto de partida para projetos maiores ou como um exemplo de como combinar arquitetura limpa com recursos modernos do Android. É uma boa base para quem está estudando ou pretende evoluir para apps mais completos.
